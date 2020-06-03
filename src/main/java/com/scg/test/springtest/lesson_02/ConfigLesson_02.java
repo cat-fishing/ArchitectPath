@@ -25,4 +25,13 @@ public class ConfigLesson_02 {
         System.out.println("加菲即将进入战场》》》》》》");
         return new Cat();
     }
+    @Bean
+    public Plane plane(){
+        System.out.println("歼20灰机，起飞……");
+        return new Plane();
+    }
+    @Bean
+    public Jeep jeep(){
+        return new Jeep();
+    }
 }
